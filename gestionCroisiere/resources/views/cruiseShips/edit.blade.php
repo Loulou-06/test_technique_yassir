@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="float-start">
-                <h2>Modifier le bateau</h2>
+                <h2>Modify the boat</h2>
             </div>
             <div class="float-end">
                 <a class="btn btn-outline-primary" href="{{ route('cruiseShips.index') }}"> Retour</a>
@@ -26,7 +26,7 @@
     <form action="{{ route('cruiseShips.update', $cruiseShip->id) }}" method="POST">
         @csrf
         @method('PUT')
-        <div class="row text-center d-flex justify-content-center">
+        <div class="row text-center d-flex justify-content-center p-2 border shadow">
             <div class="col-xs-6 col-sm-6 col-md-6">
                 <div class="form-group">
                     <strong>Nom:</strong>
@@ -43,32 +43,36 @@
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6">
                 <div class="form-group">
-                    <strong>Description:</strong>
-                    <textarea class="form-control text-center" style="height:150px" name="description" placeholder="Description">{{ $cruiseShip->description }}</textarea>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6">
-                <div class="form-group">
                     <strong>Year of construction:</strong>
-                    <input class="form-control text-center" name="year_of_construction" placeholder="Year of construction" value="{{ $cruiseShip->year_of_construction }}"">
+                    <input class="form-control text-center" name="year_of_construction" placeholder="Year of construction"
+                        value="{{ $cruiseShip->year_of_construction }}"">
                 </div>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6">
                 <div class="form-group">
                     <strong>ship length:</strong>
-                    <input class="form-control text-center" name="ship_length" placeholder="ship length" value="{{ $cruiseShip->ship_length }}"">
+                    <input class="form-control text-center" name="ship_length" placeholder="ship length"
+                        value="{{ $cruiseShip->ship_length }}"">
                 </div>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6">
                 <div class="form-group">
                     <strong>ship width:</strong>
-                    <input class="form-control text-center" name="ship_width" placeholder="ship width" value="{{ $cruiseShip->ship_width }}"">
+                    <input class="form-control text-center" name="ship_width" placeholder="ship width"
+                        value="{{ $cruiseShip->ship_width }}"">
                 </div>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6">
                 <div class="form-group">
                     <strong>Company Id:</strong>
-                    <input class="form-control text-center" name="company_id" placeholder="Company id" value="{{ $cruiseShip->company_id }}"">
+                    <input class="form-control text-center" name="company_id" placeholder="Company id"
+                        value="{{ $cruiseShip->company_id }}"">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+                <div class="form-group">
+                    <strong>Description:</strong>
+                    <textarea class="form-control text-center" style="height:150px" name="description" placeholder="Description">{{ $cruiseShip->description }}</textarea>
                 </div>
             </div>
         </div>
