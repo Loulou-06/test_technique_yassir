@@ -1,43 +1,37 @@
-# test_technique_yassir
+# Test Technique CRUD
 
-Si vous rencontrer un éventuel problème lié a ce readme je vous invite a suivre les liens suivant pour l'installation et la configuration de chaque element.
+Ce projet contient des instructions pour l'installation et la configuration des différents éléments nécessaires. Si vous rencontrez des problèmes liés à ce README, suivez les liens ci-dessous pour obtenir des informations détaillées sur l'installation et la configuration de chaque élément.
 
-Merci de suivre les liens ci-dessous si besoin.
-PHP -> https://windows.php.net/download/
-Sail ->  https://laravel.com/docs/10.x/sail#starting-and-stopping-sail
-Laravel docker -> https://laravel.com/docs/10.x/installation
-Wamp -> https://www.wampserver.com/
-Composer -> https://getcomposer.org/
-Docker -> https://www.docker.com/
+Merci de suivre les liens ci-dessous en cas de besoin.
 
-Projet Laravel avec Docker et Sail
+- PHP -> [https://windows.php.net/download/](https://windows.php.net/download/)
+- Sail -> [https://laravel.com/docs/10.x/sail#starting-and-stopping-sail](https://laravel.com/docs/10.x/sail#starting-and-stopping-sail)
+- Laravel Docker -> [https://laravel.com/docs/10.x/installation](https://laravel.com/docs/10.x/installation)
+- Wamp -> [https://www.wampserver.com/](https://www.wampserver.com/)
+- Composer -> [https://getcomposer.org/](https://getcomposer.org/)
+- Docker -> [https://www.docker.com/](https://www.docker.com/)
 
-Prérequis
-  php
-  laravel
-  Docker
-  Composer
-  Wamp
-  
-Installation
-  Clonez le repo : git clone https://github.com/mon-projet.git
-  Accédez au dossier du projet : cd mon-projet
-  Installez les dépendances avec Composer : composer install
-  Copiez le fichier .env.example et renommez-le en .env
-  
+## Projet Laravel avec Docker et Sail
 
-Lancement du serveur
+### Prérequis
+- PHP
+- Laravel
+- Docker
+- Composer
+- Wamp
 
-  1. Assurez-vous que WAMP est en cours d'exécution.
-  2. Ouvrez une nouvelle console et accédez au répertoire racine du projet.
-  3. Exécutez la commande `./vendor/bin/sail up` pour démarrer les conteneurs Docker.
-  4. Exécutez la commande `php artisan serve` pour démarrer le serveur web.
-  5. Accédez au site web en visitant l'URL suivante dans votre navigateur : http://localhost:8000/
-  
-  
-Utilisation
-  Laravel Tinker
-  Pour lancer Tinker, ouvrez un terminal et tapez la commande suivante : php artisan tinker
-  
+### Installation
+1. Clonez le repository : `git clone https://github.com/mon-projet.git`
+2. Accédez au dossier du projet : `cd mon-projet`
+3. Installez les dépendances avec Composer : `composer install`
+4. Copiez le fichier `.env.example` et renommez-le en `.env`
 
-  
+### Lancement du serveur
+1. Assurez-vous que WAMP est en cours d'exécution.
+2. Ouvrez une nouvelle console et accédez au répertoire racine du projet.
+3. Exécutez la commande `./vendor/bin/sail up` pour démarrer les conteneurs Docker.
+4. Exécutez la commande `php artisan serve` pour démarrer le serveur web.
+5. Accédez au site web en visitant l'URL suivante dans votre navigateur : [http://localhost:8000/](http://localhost:8000/)
+
+### Utilisation
+- Laravel Tinker : Pour lancer Tinker, ouvrez un terminal et tapez la commande suivante : `php artisan tinker`
