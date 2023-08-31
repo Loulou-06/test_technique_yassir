@@ -21,9 +21,9 @@ Merci de suivre les liens ci-dessous en cas de besoin.
 - Wamp
 
 ### Installation
-1. Clonez le repository : `git clone https://github.com/mon-projet.git`
-2. Accédez au dossier du projet : `cd mon-projet`
-3. Installez les dépendances avec Composer : `composer install`
+1. Clonez le repository : `git@github.com:Loulou-06/test_technique_yassir.git`
+2. Accédez au dossier du projet : `cd test_technique_Yassir`
+3. Installez les dépendances avec Composer : `composer install` ( `si besoin faire 'composer update`)
 4. Copiez le fichier `.env.example` et renommez-le en `.env`
 
 ### Lancement du serveur
