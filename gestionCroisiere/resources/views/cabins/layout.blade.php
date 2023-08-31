@@ -24,7 +24,7 @@
     <div class="container p-4 mt-5 border border-primary shadow-lg p-3 mb-5 ">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2 d-flex justify-content-between rounded">
             <div>
-                <a class="navbar-brand m-2" href="/"><img width="50" height="50" src="{{ asset('storage/etoile_starcroisieres.png') }}" class="img-fluid"
+                <a class="navbar-brand m-2" href="/"><img width="50" height="50" src="{{ asset('assets/etoile_starcroisieres.png') }}" class="img-fluid"
                         alt="étoile StarCroisières"><span class="text-warning">  Star</span><span
                         class="text-info">Croisières</span></a>
             </div>

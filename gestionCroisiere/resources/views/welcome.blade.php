@@ -24,8 +24,8 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2 d-flex justify-content-between rounded">
             <div>
                 <a class="navbar-brand m-2" href="#"><img width="50" height="50"
-                        src="{{ asset('storage/etoile_starcroisieres.png') }}" class="img-fluid"
-                        alt="étoile StarCroisières"><span class="text-warning">  Star</span><span
+                        src="{{ asset('assets/etoile_starcroisieres.png') }}" class="img-fluid"
+                        alt="étoile StarCroisières"><span class="text-warning"> Star</span><span
                         class="text-info">Croisières</span></a>
             </div>
             <div>
@@ -60,7 +60,7 @@
                         hsla(168, 85%, 52%, 0.5),
                         hsla(263, 88%, 45%, 0.5) 100%
                       );"
-                            src="{{ asset('storage/companyName.jpg') }}" alt="Card image cap">
+                            src="{{ asset('assets/companyName.jpg') }}" alt="Card image cap">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title"><u>The companies</u></h5>
@@ -82,7 +82,7 @@
                     hsla(168, 85%, 52%, 0.5),
                     hsla(263, 88%, 45%, 0.5) 100%
                   );"
-                            src="{{ asset('storage/cruiseShip.jpg') }}" alt="Card image cap">
+                            src="{{ asset('assets/cruiseShip.jpg') }}" alt="Card image cap">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title"><u>The cruise ships</u></h5>
@@ -97,14 +97,14 @@
         hsla(263, 88%, 45%, 0.5) 100%
       );">
                 <a href="./cabins" class="btn">
-                    <div  class="shadow ">
+                    <div class="shadow ">
                         <img class="card-img-top mt-2 p-2"
                             style="width: 15rem; height: 10rem; background: linear-gradient(
                 45deg,
                 hsla(168, 85%, 52%, 0.5),
                 hsla(263, 88%, 45%, 0.5) 100%
               );"
-                            src="{{ asset('storage/hublot-starcroisiere.jpg') }}" alt="Card image cap">
+                            src="{{ asset('assets/hublot-starcroisiere.jpg') }}" alt="Card image cap">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title"><u>The cabins</u></h5>
